@@ -10,6 +10,6 @@ loginForm.addEventListener('submit', event => {
   } else {
     objLoginForm.email = event.target.elements.email.value;
     objLoginForm.password = event.target.elements.password.value;
+    loginForm.reset();
   }
-  loginForm.reset();
 });
